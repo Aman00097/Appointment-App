@@ -10,7 +10,7 @@ const sidebarApi = [
         id: 1,
         icon: <BsSpeedometer2 />,
         name: 'Dashboard',
-        link: '/'
+        link: '/Appointment-App'
     },
     {
         id: 2,

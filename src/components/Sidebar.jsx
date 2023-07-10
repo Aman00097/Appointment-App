@@ -144,8 +144,8 @@ function Sidebar(props) {
             >
                 <Toolbar display='none' />
                 <Routes>
-                    <Route path='/Appointment-App' element={<Dashboard />} />
                     <Route path='/' element={<Dashboard />} />
+                    <Route path='/Appointment-App' element={<Dashboard />} />
                     <Route path='/schedule' element={<Schedule />} />
                     <Route path='/doctor' element={<Doctor />} />
                     <Route path='/patient' element={<Patient />} />

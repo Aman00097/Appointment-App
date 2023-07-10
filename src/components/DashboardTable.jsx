@@ -51,7 +51,7 @@ export default function DashboardTable({ todaysEvents }) {
 
     return (
         <Paper sx={{ width: '100%', overflow: 'hidden' }}>
-            <TableContainer sx={{ maxHeight: { xs: 200, sm: 150 } }}>
+            <TableContainer sx={{ maxHeight: { xs: 300, md: 150 } }}>
                 <Table stickyHeader aria-label="sticky table">
                     <TableHead>
                         <TableRow>
