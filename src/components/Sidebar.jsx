@@ -102,7 +102,7 @@ function Sidebar(props) {
                     </Typography>
                     <Stack direction='row' gap={1} variant='div' sx={{ display: { md: 'flex', sm: 'none', xs: 'none' }, alignItems: 'center', justifyContent: 'center', borderLeft: '2px solid #b7b7ff', padding: '5px' }}>
                         <IoMdLogOut fontSize='28px' color='#b7b7ff' />
-                        <Link to={'https://aman00097.github.io/Appointment-App/'} target='_blank'><AiFillGithub color='#b7b7ff' fontSize='28px' /></Link>
+                        <Link to={'https://github.com/Aman00097/Appointment-App'} target='_blank'><AiFillGithub color='#b7b7ff' fontSize='28px' /></Link>
                     </Stack>
                 </Toolbar>
             </AppBar>
@@ -144,6 +144,7 @@ function Sidebar(props) {
             >
                 <Toolbar display='none' />
                 <Routes>
+                    <Route path='/Appointment-App' element={<Dashboard />} />
                     <Route path='/' element={<Dashboard />} />
                     <Route path='/schedule' element={<Schedule />} />
                     <Route path='/doctor' element={<Doctor />} />
